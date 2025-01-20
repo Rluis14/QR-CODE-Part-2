@@ -1,0 +1,68 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qr-code {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-family: 'Neuton', sans-serif;
+    font-size: 18px;
+    color: hs1(218, 44% 22%);
+    margin-bottom: 15px;
+}
+
+p {
+    font-family: 'Bentham', sans-serif;
+    font-size: 14px;
+    color: hsl(220, 15%, 55%);
+    line-height: 1.5;
+}
+
+.attribution {
+    line-height: 1.5;
+    font-size: 9px; 
+    text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
